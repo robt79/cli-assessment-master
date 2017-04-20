@@ -1,0 +1,15 @@
+ 1417  touch cli_notes.md
+ 1418  atom .
+ 1419  mkdir notes
+ 1420  mv cli_notes.md notes
+ 1421  cd notes/
+ 1422  cp cli_notes.md cli_notes_2.md
+ 1423  mv cli_notes_2.md cli_commands.md
+ 1424  ls
+ 1425  rm cli_notes.md
+ 1426  cat cli_commands.md
+ 1427  cd ..
+ 1428  rm -r notes/
+ 1429  history | tail -n 12 > my-instructions
+ 1430  cd ..
+ 1431  npm test > ./src/test-output
